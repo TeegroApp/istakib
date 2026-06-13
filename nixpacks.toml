@@ -1,0 +1,13 @@
+[phases.install]
+cmds = [
+  "npm install --prefix server",
+  "npm install --prefix client"
+]
+
+[phases.build]
+cmds = [
+  "sh -c 'cd client && ./node_modules/.bin/vite build'"
+]
+
+[start]
+cmd = "node server/index.js"
