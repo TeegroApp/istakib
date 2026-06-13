@@ -2,5 +2,12 @@ node_modules
 client/node_modules
 server/node_modules
 client/dist
+dist
+src/
+vite.config.js
+postcss.config.js
+tailwind.config.js
+index.html
+package-lock.json
 .env
 .env.local
